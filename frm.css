@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border-style: solid;
+    border-radius: 25px;
+    border-color: darkgreen;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content:center;
+align-items: center;
+background-color: lightgreen;
+line-height: 1.75;
+box-shadow: 10px 10px 5px 5px darkgreen;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+}
+.container form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.butt{
+    background-color: lightblue;
+    border-radius: 45px;
+    padding: 5px;
+    cursor: pointer;
+}
+.butt:hover{
+    background-color:blueviolet;
+    color: white;
+}
+.BTN1,.BTN2,.BTN3{
+    cursor: pointer;
+}
+.BTN1 i,.BTN2 i,.BTN3 i{
+    height: 15px;
+    width: 25px;
+}
+.ICON{
+    display: inline;
+}
+.signin{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.signin:hover{
+   color: blue;
+}
